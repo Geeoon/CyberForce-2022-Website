@@ -49,7 +49,7 @@
 #solar-image-wrapper {
   display: flex;
   justify-content: center;
-  margin: 
+  margin: 0;
 }
 
 #solar-image {
