@@ -1,5 +1,5 @@
 import './App.css';
-import { Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Home from './Home';
 import Error404 from './Error404';
 import Header from './Header';
