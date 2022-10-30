@@ -21,11 +21,11 @@ export default function Footer(props) {
       </div>
 
       <div className='footer-element'>
-        <Link to='/'>
           <div className='footer-link'>
-            Links
+            <Link to='/contact'>Link to Contact Us</Link><br />
+            <Link to='/manufacturing'>Link to Manufacturing</Link><br />
+            <Link to='/solargen'>Link to Solar Generation</Link>
           </div>
-        </Link>
       </div>
     </div>
   );

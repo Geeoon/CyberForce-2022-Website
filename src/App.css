@@ -64,11 +64,17 @@
 #home-content {
   display: flex;
   flex-direction: column;
+  padding: 20px;
+  margin: 10px auto;
+  border: 1px solid black;
+  max-width: 800px;  
 }
 
 #sonnenberg-fields {
   text-align: center;
   flex: 1;
+  background-color: red;
+  margin-bottom: 10px;
 }
 
 #sonnenberg-details {
@@ -84,3 +90,93 @@
 }
 
 /* HOME ABOVE */
+
+/* CONTACT BELOW */
+
+#contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  background-color: mediumseagreen;
+}
+
+#contact-info {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* CONTACT ABOVE */
+
+/* SOLAR GEN BELOW */
+
+#solar-gen-wrapper {
+  background-color: teal;
+  margin: 20px;
+  padding: 20px;
+}
+
+#solar-gen-main {
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+/* SOLAR GEN ABOVE */
+
+/* MANUFACTURING BELOW */
+
+#manufacturing-wrapper {
+  background-color: teal;
+  margin: 20px;
+  padding: 20px;
+}
+
+#manufacturing-main {
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+/* MANUFACTURING ABOVE */
+
+/* LOGIN BELOW */
+
+#login-wrapper {
+  background-color: teal;
+  margin: 20px;
+  padding: 20px;
+}
+
+#login-main {
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* LOGIN ABOVE */
+
+.flex-header {
+  display: flex;
+  justify-content: center;
+}
+
+.input-full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
