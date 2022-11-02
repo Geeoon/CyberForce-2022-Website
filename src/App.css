@@ -171,6 +171,38 @@
 
 /* LOGIN ABOVE */
 
+/* ADMIN BELOW */
+
+#admin-wrapper {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-main {
+  padding: 20px;
+  background-color: teal;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#ftp-view {
+  background-color: white;
+  border-radius: 5px;
+}
+
+#email-view {
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* ADMIN ABOVE */
+
 .flex-header {
   display: flex;
   justify-content: center;

@@ -1,12 +1,18 @@
 import React, { useCallback, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Cookies from "js-cookie";
 
 export default function Login(props) {
+  const navigate = useNavigate();
   const [username, set_username] = useState("");
   const [password, set_password] = useState("");
 
   const handleSubmit = useCallback(() => {
     console.log(username);
     console.log(password);
+    Cookies.set("username", username);
+    Cookies.set("password", password);
+    navigate("/admin")
   }, [username, password]);
 
   return(
